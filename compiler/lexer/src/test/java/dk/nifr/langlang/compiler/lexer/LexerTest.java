@@ -67,7 +67,6 @@ class LexerTest {
     @FieldSource
     @ParameterizedTest
     void lex_lexes(final String input, List<Token> expectedOutput) {
-
         assertThat(lex(input))
                 .containsExactlyElementsOf(expectedOutput);
 

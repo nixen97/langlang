@@ -25,6 +25,11 @@ public enum TokenKind {
     TOKEN_MINUS("-"),
     TOKEN_START("*"),
     TOKEN_SLASH("/"),
+    TOKEN_EQUALS_EQUALS("=="),
+    TOKEN_PLUS_EQUALS("+="),
+    TOKEN_MINUS_EQUALS("-="),
+    TOKEN_START_EQUALS("*="),
+    TOKEN_SLASH_EQUALS("/="),
     ;
     private final String literalString;
 

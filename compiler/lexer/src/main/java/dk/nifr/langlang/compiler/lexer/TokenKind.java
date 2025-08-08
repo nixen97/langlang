@@ -17,8 +17,14 @@ public enum TokenKind {
     TOKEN_DOT("."),
     TOKEN_OPEN_PAREN("("),
     TOKEN_CLOSE_PAREN(")"),
+    TOKEN_OPEN_CURLY("{"),
+    TOKEN_CLOSE_CURLY("}"),
     TOKEN_SEMICOLON(";"),
     TOKEN_EQUALS("="),
+    TOKEN_PLUS("+"),
+    TOKEN_MINUS("-"),
+    TOKEN_START("*"),
+    TOKEN_SLASH("/"),
     ;
     private final String literalString;
 

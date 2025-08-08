@@ -11,7 +11,7 @@
         <module name="langlang.lexer.main" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="21">
       <module name="langlang.compiler.lexer" target="22" />
       <module name="langlang.compiler.lexer.main" target="22" />
       <module name="langlang.compiler.lexer.test" target="22" />
